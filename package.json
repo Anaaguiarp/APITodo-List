@@ -1,0 +1,30 @@
+{
+  "name": "apitodo-list",
+  "version": "1.0.0",
+  "description": "API todo-list, tarefa da matéria de tópicos especiais",
+  "homepage": "https://github.com/Anaaguiarp/APITodo-List#readme",
+  "bugs": {
+    "url": "https://github.com/Anaaguiarp/APITodo-List/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anaaguiarp/APITodo-List.git"
+  },
+  "license": "ISC",
+  "author": "Ana Carolina Aguiar Pereira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/controllers/index.js",
+    "dev": "nodemon src/controllers/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10"
+  }
+}
